@@ -75,7 +75,13 @@ body{
   .contact-headline{
       padding-left: 40px;
   }
-  
+ li{
+    transition:color .25s ;
+ } 
+ li:hover{
+    color: #FB6D3A ;
+ }
+
   @font-face {
     font-family: 'Bluend Font';
     src: url('./Fonts/bluend/Bluend.otf') format('opentype'),
